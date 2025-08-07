@@ -14,3 +14,4 @@
     threads (1 or more) [1]: 1
 3. cd dbtlearn
 4. dbt debug 
+5. create .sql files inside models folder
