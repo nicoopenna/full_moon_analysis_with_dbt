@@ -1,0 +1,28 @@
+[0m19:52:15  Running with dbt=1.10.6
+[0m19:52:15  Registered adapter: snowflake=1.9.0
+[0m19:52:16  Found 1 seed, 8 models, 1 snapshot, 8 data tests, 3 sources, 474 macros
+[0m19:52:16  
+[0m19:52:16  Concurrency: 1 threads (target='dev')
+[0m19:52:16  
+[0m19:52:17  1 of 8 START test accepted_values_dim_listings_cleansed_room_type__Entire_home_apt__Private_room__Shared_room__Hotel_room  [RUN]
+[0m19:52:17  1 of 8 PASS accepted_values_dim_listings_cleansed_room_type__Entire_home_apt__Private_room__Shared_room__Hotel_room  [[32mPASS[0m in 0.39s]
+[0m19:52:17  2 of 8 START test consistent_created_at ........................................ [RUN]
+[0m19:52:18  2 of 8 PASS consistent_created_at .............................................. [[32mPASS[0m in 0.28s]
+[0m19:52:18  3 of 8 START test dim_listings_minimum_nights .................................. [RUN]
+[0m19:52:18  3 of 8 PASS dim_listings_minimum_nights ........................................ [[32mPASS[0m in 0.28s]
+[0m19:52:18  4 of 8 START test no_nulls_in_dim_listings ..................................... [RUN]
+[0m19:52:18  4 of 8 PASS no_nulls_in_dim_listings ........................................... [[32mPASS[0m in 0.51s]
+[0m19:52:18  5 of 8 START test not_null_dim_listings_cleansed_host_id ....................... [RUN]
+[0m19:52:19  5 of 8 PASS not_null_dim_listings_cleansed_host_id ............................. [[32mPASS[0m in 0.26s]
+[0m19:52:19  6 of 8 START test not_null_dim_listings_cleansed_listing_id .................... [RUN]
+[0m19:52:19  6 of 8 PASS not_null_dim_listings_cleansed_listing_id .......................... [[32mPASS[0m in 0.30s]
+[0m19:52:19  7 of 8 START test relationships_dim_listings_cleansed_host_id__host_id__ref_dim_hosts_cleansed_  [RUN]
+[0m19:52:19  7 of 8 PASS relationships_dim_listings_cleansed_host_id__host_id__ref_dim_hosts_cleansed_  [[32mPASS[0m in 0.36s]
+[0m19:52:19  8 of 8 START test unique_dim_listings_cleansed_listing_id ...................... [RUN]
+[0m19:52:20  8 of 8 PASS unique_dim_listings_cleansed_listing_id ............................ [[32mPASS[0m in 0.27s]
+[0m19:52:20  
+[0m19:52:20  Finished running 8 data tests in 0 hours 0 minutes and 4.33 seconds (4.33s).
+[0m19:52:20  
+[0m19:52:20  [32mCompleted successfully[0m
+[0m19:52:20  
+[0m19:52:20  Done. PASS=8 WARN=0 ERROR=0 SKIP=0 NO-OP=0 TOTAL=8
