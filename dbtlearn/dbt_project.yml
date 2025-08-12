@@ -38,3 +38,5 @@ models:
       +materialized: ephemeral
     dim:
       +materialized: view
+    vars:
+      user_name: default_user_name_for_this_project
